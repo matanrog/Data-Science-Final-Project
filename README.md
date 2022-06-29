@@ -79,7 +79,7 @@ create two dataframs for comparations df_stem - call stemming() , df_lemmatize -
 
 * **TfIDF code block** - there are a few blocks thet runs the same code but with different inputs, once with the twists that tokenized with **stemming** and once with **lemmataize**
 ![](Pictures/LemCluster.PNG)
-![](Pictures/stCluster.PNG)
+![](Pictures/stCluster.PNG) 
 
 * **Cluster centroid** - print the centered word in each cluster that was created with Doc2Vec and  sum the like and the retweets each cluster got.
 

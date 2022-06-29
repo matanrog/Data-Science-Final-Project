@@ -78,10 +78,14 @@ create two dataframs for comparations df_stem - call stemming() , df_lemmatize -
 * **function create_clusters(df,number_of_clusters, colors ,title)** - using **Doc2Vec** algorithm to vectotize the given data frame, create the amount of given clusters with the givem colors. after vectorize we are using PCA algorithm the minimize the number of vectors to two so we can visualize it.
 
 * **TfIDF code block** - there are a few blocks thet runs the same code but with different inputs, once with the twists that tokenized with **stemming** and once with **lemmataize**
+![](Pics/LemCluster.PNG)
+![](Pics/stCluster.PNG)
 
 * **Cluster centroid** - print the centered word in each cluster that was created with Doc2Vec and  sum the like and the retweets each cluster got.
 
 * **Print cluster** - Printing the clusters scatter plot - X = Retweets, Y = Likes
+![](Pics/TFIDF.PNG)
+
 
 ## LDA algorithm 
 
@@ -92,3 +96,4 @@ create two dataframs for comparations df_stem - call stemming() , df_lemmatize -
 * **The Slide Bar:**
 * 1 = The frequency that the word accrued in the cluster 
 * 0 = The frequency that the word accrued in the corpus divided by all the words in the corpus
+![](Pics/LDA.PNG)

@@ -5,7 +5,7 @@
 
 **Submitted by:**
 
-* Matam Rodinsky
+* Matam Roginsky
 * Ron Hugi
 
 **Research question:**
